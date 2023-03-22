@@ -9,6 +9,10 @@ To run, simply add script as a cron job.
 * Prunes snapshots by keeping only the most recent 100 (adjustable)
 * Provides output to let you know how many snaps and how much space is taken up
 
+## Usage ##
+
+Update script with your dataset names, including the pool.  Don't add a leading '/', should look like: 'pool/dataset1'
+Run script manually or add it to a cron shedule
 
 ### Sample output ###
 
