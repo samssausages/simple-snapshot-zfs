@@ -12,6 +12,7 @@ To run, simply add script as a cron job.
 ## Usage ##
 
 Update script with your dataset names, including the pool.  Don't add a leading '/', should look like: 'pool/dataset1'
+
 Run script manually or add it to a cron shedule
 
 ### Sample output ###
