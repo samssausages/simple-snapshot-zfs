@@ -8,7 +8,7 @@ In my case, I only have a few datasets that I self-manage.  So it works well for
 
 ## Key features
 
-* Runs a check to see if the dataset has been written to before snapshot
+* Runs a check to see if the dataset has been written to before snapshot, using the 'written' property
 * Prunes snapshots by keeping only the most recent 100 (adjustable)
 * Provides output to let you know how many snaps and how much space is taken up
 
