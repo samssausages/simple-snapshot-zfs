@@ -26,7 +26,7 @@ create_snapshot_if_changed() {
 
   if [[ "${WRITTEN}" != "0" ]]; then
     local TIMESTAMP
-    TIMESTAMP="$(date '+%Y-%m-%d-%H:%M')"
+    TIMESTAMP="$(date '+%Y-%m-%d-%H%M')"
     zfs snapshot "${DATASET}@${TIMESTAMP}"
     echo "Snapshot created: ${DATASET}@${TIMESTAMP}"
   else
