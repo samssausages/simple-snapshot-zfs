@@ -3,8 +3,8 @@
 This is a simple script to create ZFS Snapshots, designed to overcome snapshots with 0 changes cluttering your snapshot list.
 To run, simply add script as a cron job.
 
-It has been pointed out that this can complicate restores with some 3rd party programs that use multiple snapshot policies.  So use this only if it suits your snapshot/rollback strategy & doesn't interfere with any 3rd party programs you may use.
-In my case, I only have a few datasets that I self-manage.  So it works well for me as I want to avoid the visual clutter and don't rely on 3rd party systems for snapshots or restores.
+If you use 3rd party programs to snapshot/restore, and use multiple snapshot policies, then don't use this script.  Some 3rd party programs rely on the 0 change snapshots for their date/time stamps when running restores/clones.
+In my case, I only have a few datasets that I self-manage.  So it works great for me, as I want to avoid the visual clutter and don't rely on 3rd party systems for snapshots or restores.
 
 ## Key features
 
