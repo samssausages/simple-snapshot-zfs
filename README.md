@@ -47,8 +47,16 @@ _____________________________________________________________
 
 ```
 
+## Changelog ##
 
-# Changelog
+#v0.9
+# Added validation for SHANPSHOT_QTY & DATASETS
+# Updated to use mapfile instead of readarray for SNAPSHOTS array
+# Added Error Checking & reporting for mapfile, zfs list, zfs get, zfs snapshot, zfs destroy
+# changed timestamp to include seconds to prevent duplicate snapshot names if < 1 minute between snapshots
+# changed snapshot name to add @simplesnap_ to differentiate from other snapshots
+# Made snapshot name configurable
+# Simplified use of Timestamp Variable in script & changed to SNAPSHOTNAME
 
 v0.15 
 Address coding standards & issues
