@@ -4,7 +4,7 @@
 ########################simple-snapshot-zfs#######################
 ###################### User Defined Options ######################
 # List your ZFS datasets.  You can add/remove sets
-# readarray -t DATASETS < <(zfs list -o name -H)  # when replacing DATASETS above, should return all pools/Datasets, not thoroughly tested yet.  If you test this let me know!
+# readarray -t DATASETS < <(zfs list -o name -H)  # when replacing DATASETS below, should return all pools/Datasets, not thoroughly tested yet.  If you test this let me know!
 DATASETS=("workpool/admin" "workpool/archive")
 
 # Set Number of Snapshots to Keep
