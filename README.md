@@ -49,7 +49,7 @@ _____________________________________________________________
 
 # Changelog
 
-v0.9
+### v0.9
 
 Added validation for SHANPSHOT_QTY & DATASETS
 
@@ -65,7 +65,7 @@ Made snapshot name configurable
 
 Simplified use of Timestamp Variable in script & changed to SNAPSHOTNAME
 
-v0.15 
+### v0.15 
 
 Address coding standards & issues
 
@@ -73,6 +73,6 @@ Define user configurable section, formatting
 
 Updated Timestamp Formatting for readability
 
-v0.10
+### v0.10
 
 Initial Commit
